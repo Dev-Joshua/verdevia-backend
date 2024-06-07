@@ -1,16 +1,16 @@
-package com.verdevia.backend.controllers;
+// package com.verdevia.backend.controllers;
 
-import java.time.LocalDateTime;
+// import java.time.LocalDateTime;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+// import org.springframework.web.bind.annotation.GetMapping;
+// import org.springframework.web.bind.annotation.RestController;
 
-import com.verdevia.backend.models.MessageDto;
+// import com.verdevia.backend.models.MessageDto;
 
-@RestController
-public class MessageController {
-    @GetMapping("/api/message")
-	public MessageDto messageView() {
-		return new MessageDto(LocalDateTime.now(), "Hola mundo");
-	}
-}
+// @RestController
+// public class MessageController {
+//     @GetMapping("/api/message")
+// 	public MessageDto messageView() {
+// 		return new MessageDto(LocalDateTime.now(), "Hola mundo");
+// 	}
+// }

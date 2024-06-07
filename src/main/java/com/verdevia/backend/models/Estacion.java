@@ -7,7 +7,6 @@ public class Estacion {
     private Municipio municipio;
     private Ruta ruta;
 
-    
     public Long getId_estacion() {
         return id_estacion;
     }

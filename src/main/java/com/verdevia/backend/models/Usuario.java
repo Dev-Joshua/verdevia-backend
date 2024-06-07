@@ -7,8 +7,7 @@ public class Usuario {
     private String correo_electronico;
     private String contrasena;
 
-
-
+    
     public Long getId_usuario() {
         return id_usuario;
     }
